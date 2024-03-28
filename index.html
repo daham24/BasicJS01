@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <button id="startButton" class="btn">Start</button>
+    <div id="popupContainer" class="popup-container">
+      <div id="namePopup" class="popup">
+        <span class="close-button">&times;</span>
+        <h2>Enter your name:</h2>
+        <input type="text" id="nameInput" class="input" />
+        <button id="nameNextButton" class="btn">Next</button>
+        <button id="nameSkipButton" class="btn">Skip</button>
+      </div>
+      <div id="countryPopup" class="popup">
+        <span class="close-button">&times;</span>
+        <h2>Enter your country:</h2>
+        <input type="text" id="countryInput" class="input" />
+        <button id="countryNextButton" class="btn">Next</button>
+        <button id="countrySkipButton" class="btn">Skip</button>
+      </div>
+      <div id="addressPopup" class="popup">
+        <span class="close-button">&times;</span>
+        <h2>Enter your address:</h2>
+        <input type="text" id="addressInput" class="input" />
+        <button id="addressNextButton" class="btn">Next</button>
+        <button id="addressSkipButton" class="btn">Skip</button>
+      </div>
+      <div id="phonePopup" class="popup">
+        <span class="close-button">&times;</span>
+        <h2>Enter your phone number:</h2>
+        <input type="text" id="phoneInput" class="input" />
+        <button id="phoneNextButton" class="btn">Next</button>
+        <button id="phoneSkipButton" class="btn">Skip</button>
+      </div>
+    </div>
+
+    <div id="mainContent" class="main-content">
+      <h1>Welcome</h1>
+      <div id="userInfo"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
